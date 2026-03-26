@@ -1,0 +1,10 @@
+[package]
+name = "clip_player_finder"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.102"
+image = { version = "0.24.9", features = ["png", "jpeg", "webp"] }
+template-matching = { version = "0.2.0", features = ["image"] }
+walkdir = "2.5.0"
